@@ -3,6 +3,9 @@ name: Delete github repositories
 on:
   push:
     branches: main
+    paths-ignore:
+      - 'README.md'
+      - '.github/**'
 
 jobs:
   build-fastapi-app:
