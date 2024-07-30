@@ -14,6 +14,6 @@ headers = {'Accept': 'application/vnd.github.v3+json',
 lines = [line.strip() for line in open('todelete.txt')] # todelete.txt is a txt with repository names. One per line.
 
 for repo in lines:
-    print os.path.join(url, repo)
+    print(os.path.join(url, repo))
     myrequest = requests.delete(os.path.join(url, repo), headers=headers)
-    print myrequest.content
+    print(myrequest.content)
