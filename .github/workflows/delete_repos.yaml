@@ -28,4 +28,5 @@ jobs:
 
       - name: Delete repositories
         run: |
+          pip install requests os sys
           python delete_repos.py ${{ vars.ORGANIZATION }} ${{ secrets.GITHUB_TOKEN }}
