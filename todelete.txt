@@ -1,2 +1,14 @@
-terraform-fastapi8
-app-fastapi8
+app-fastapi7
+app-fastapi6
+app-fastapi5
+app-fastapi4
+app-fastapi3
+app-fastapi2
+app-fastapi1
+terraform-fastapi7
+terraform-fastapi6
+terraform-fastapi5
+terraform-fastapi4
+terraform-fastapi3
+terraform-fastapi2
+terraform-fastapi1
