@@ -30,3 +30,15 @@ sonarqube-2-iac
 sonarqube-3-iac
 sonarqube-4-iac
 sonarqube-5-iac
+temp1-app
+temp1-iac
+temp2-app
+temp2-iac
+temp3-app
+temp3-iac
+temp4-app
+temp4-iac
+temp5-app
+temp5-iac
+temp6-app
+temp6-iac
